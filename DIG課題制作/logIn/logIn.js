@@ -46,6 +46,6 @@ form.addEventListener("submit", function (e) {
     logInStrage();
 
     alert("ログインが成功しました！");
-    location.href = "../dashboard/index.html";
+    location.href = "../index.html";
   }
 });
