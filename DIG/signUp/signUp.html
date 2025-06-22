@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Record</title>
+    <link rel="stylesheet" href="./signUp.css" />
+  </head>
+  <body>
+    <section class="signIn-section">
+      <h1 class="title">Body Record</h1>
+      <h2 class="page-title">Sign Up</h2>
+      <form class="signIn-form" id="signIn-form">
+        <input
+          type="text"
+          class="username"
+          id="username"
+          name="username"
+          placeholder="ユーザー名"
+        />
+
+        <input
+          type="password"
+          class="password"
+          id="password"
+          name="password"
+          placeholder="パスワード（８文字以上）"
+        />
+
+        <input
+          type="password"
+          class="retype-password"
+          id="retype-password"
+          name="retype-password"
+          placeholder="パスワードを再入力"
+        />
+        <button class="submit-button">サインアップする</button>
+      </form>
+      <div class="errorsMessage" id="js-errorsMessage" heigth="200"></div>
+      <p class="cotion">ログイン済みの方はこちら↓</p>
+      <button class="go-logIn">ログイン画面へ</button>
+    </section>
+    <script src="./signUp.js"></script>
+  </body>
+</html>
