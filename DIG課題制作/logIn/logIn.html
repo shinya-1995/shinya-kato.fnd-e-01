@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Record / logIn</title>
+    <link rel="stylesheet" href="./logIn.css" />
+  </head>
+  <body>
+    <section class="signIn-section">
+      <h1 class="title">Body Record</h1>
+      <h2 class="page-title">Log In</h2>
+      <form class="signIn-form" id="signIn-form">
+        <input
+          type="text"
+          class="username"
+          id="username"
+          name="username"
+          placeholder="ユーザー名"
+        />
+        <input
+          type="password"
+          class="password"
+          id="password"
+          name="password"
+          placeholder="パスワード"
+        />
+        <button class="submit-button" id="js-submit-button">ログイン</button>
+      </form>
+      <p class="comment">サインアップがまだの方はこちら</p>
+      <button class="go-signUp">サインアップ画面へ</button>
+    </section>
+    <div class="errorsMessage" id="js-errorsMessage" heigth="200"></div>
+
+    <script src="./logIn.js"></script>
+  </body>
+</html>
