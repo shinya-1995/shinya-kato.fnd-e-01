@@ -75,6 +75,34 @@ if (!localStorage.getItem("AllRecords")) {
       time: "60",
     },
     { name: "shinya", day: "2025-06-21", type: "weight", record: "64" },
+    
+  {name: "shinya", day: "2025-07-01", type: "weight", record: "63"},
+  {name: "shinya", day: "2025-07-02", type: "weight", record: "62"},
+  {name: "shinya", day: "2025-07-03", type: "weight", record: "67"},
+  {name: "shinya", day: "2025-07-03", type: "exercise", record: "筋トレ", time: "30"},
+  {name: "shinya", day: "2025-07-04", type: "weight", record: "63"},
+  {name: "shinya", day: "2025-07-04", type: "exercise", record: "筋トレ", time: "60"},
+  {name: "shinya", day: "2025-07-05", type: "weight", record: "64"},
+  {name: "shinya", day: "2025-07-05", type: "exercise", record: "ストレッチ", time: "30"},
+  {name: "shinya", day: "2025-07-06", type: "weight", record: "64"},
+  {name: "shinya", day: "2025-07-06", type: "exercise", record: "ランニング", time: "60"},
+  {name: "shinya", day: "2025-07-07", type: "weight", record: "66"},
+  {name: "shinya", day: "2025-07-07", type: "exercise", record: "筋トレ", time: "30"},
+  {name: "shinya", day: "2025-07-08", type: "weight", record: "64"},
+  {name: "shinya", day: "2025-07-08", type: "exercise", record: "筋トレ", time: "30"},
+  {name: "shinya", day: "2025-07-09", type: "weight", record: "62"},
+  {name: "shinya", day: "2025-07-09", type: "exercise", record: "ランニング", time: "30"},
+  {name: "shinya", day: "2025-07-10", type: "weight", record: "64"},
+  {name: "shinya", day: "2025-07-10", type: "exercise", record: "ストレッチ", time: "45"},
+  {name: "shinya", day: "2025-07-11", type: "weight", record: "63"},
+  {name: "shinya", day: "2025-07-11", type: "exercise", record: "ランニング", time: "30"},
+  {name: "shinya", day: "2025-07-12", type: "weight", record: "66"},
+  {name: "shinya", day: "2025-07-12", type: "exercise", record: "ストレッチ", time: "45"},
+  {name: "shinya", day: "2025-07-13", type: "weight", record: "64"},
+  {name: "shinya", day: "2025-07-14", type: "weight", record: "62"},
+  {name: "shinya", day: "2025-07-14", type: "exercise", record: "ランニング", time: "30"}
+
+
   ];
 
   localStorage.setItem("shinya", JSON.stringify(dammyUser));
