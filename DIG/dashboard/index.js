@@ -99,8 +99,7 @@ if (!localStorage.getItem("AllRecords")) {
   {name: "shinya", day: "2025-07-12", type: "weight", record: "66"},
   {name: "shinya", day: "2025-07-12", type: "exercise", record: "ストレッチ", time: "45"},
   {name: "shinya", day: "2025-07-13", type: "weight", record: "64"},
-  {name: "shinya", day: "2025-07-14", type: "weight", record: "62"},
-  {name: "shinya", day: "2025-07-14", type: "exercise", record: "ランニング", time: "30"}
+
 
 
   ];
